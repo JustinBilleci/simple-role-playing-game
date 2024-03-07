@@ -1,3 +1,4 @@
+// setting some baselines
 let xp = 0;
 let health = 100;
 let gold = 50;
@@ -39,7 +40,7 @@ button3.onclick = fightDragon;
 function update(location) {
 
 }
-
+// adding button functionality
 function goTown() {
   button1.innerText = "Go to store";
   button2.innerText = "Go to cave";
